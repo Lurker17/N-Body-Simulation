@@ -7,6 +7,7 @@ Each version lives in its own folder and builds on its own.
 | version | method | notes |
 |---|---|---|
 | [v1](v1/) | brute force, O(N²) | GPU Gems 3, ch. 31. Shared-memory tiling, point-splat renderer. |
+| [v2](v2/) | brute force, O(N²) | FMA chain, Q split, cp.async prefetch, async frame pipeline. 1.14–1.50x kernel, 1.55x end to end. |
 
 ## Requirements
 
